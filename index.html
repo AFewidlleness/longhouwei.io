@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/gougouzhijia.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div id="box">
+			<div class="zd">
+				<div class="logo">
+					<img src="img/logo1.jpg" />
+					<div class="dh1">
+						<ul>
+							<li>
+								<a href="index.html">网站首页</a>
+							</li>
+							<li>
+								<a href="renqigougou.html">人气狗狗</a>
+							</li>
+							<li>
+								<a href="xiongmengliegou.html">凶猛烈狗</a>
+							</li>
+							<li>
+								<a href="zhongxingdaimeng.html">中型呆萌</a>
+							</li>
+							<li>
+								<a href="xiaoxingmengquan.html">小型萌宠</a>
+							</li>
+							<li>
+								<a href="shenghuodiandi.html">生活点滴</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="header">
+					<div class="zb1">
+						<img src="img/j1.jpg" />
+						<div class="dh2">
+							<ul>
+								<form action=""method="get">
+									<li>
+										<label>用户 名:</label>
+										<input name="username" type="text" class="txt" />
+									</li>
+									<li>
+										<label>密&nbsp; &nbsp; 码:</label>
+										<input name="psw" type="password" class="txt" />
+									</li>
+									<li>
+										<input name="btn" type="reset" class="btn" value="登陆" />
+									</li>
+									<li class="li1">
+										<img src="img/z3.jpg"><a href="#">微信登陆</a>
+										<img src="img/z4.jpg"><a href="#">QQ登陆</a>
+									</li>
+									<li class="li2">
+									<a href="#">忘记密码</a>
+									<a href="biaodan.html">免费注册</a>
+									</li>
+								</form>
+							</ul>
+							<img src="img/z2.jpg" style="margin-top: 50px;" />
+							<img src="img/j9.jpg" width="240" height="200" style=" margin-top: 56px;" />
+						</div>
+					</div>
+					<div class="ys1">
+						<p>
+							<a id="ShouYe" href="index.html">首页</a>&gt;&gt;
+							<a id="LIANXI" href="biaodan.html">联系我们</a>
+						</p>
+						<img id="tupian" src="img/j2.jpg" width="567" />
+						<div id="demo" style="overflow: hidden;" align=center>
+							<table border=0 align=center cellpadding=1 cellspacing=0 cellspace=0>
+								<tr>
+									<td valign=top bgcolor=ffffff id=marquePic1>
+										<table width='100%' border='0' cellspacing='10'>
+											<tr>
+												<td align=center>
+													<a href='#'><img src="img/g1.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/g2.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/g3.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/g4.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/j10.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/j2.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/g5.png" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/g1.jpg" width=120 height=120 border=1></a>
+												</td>
+												<td align=center>
+													<a href='#'><img src="img/g4.jpg" width=120 height=120 border=1></a>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td id=marquePic2 valign=top></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="ys2">
+						<h2>狗狗之家</h2>
+						<p>主要犬种：凶猛猎犬、中型呆萌、娇小萌宠</p>
+						<p>地址：湖南省常德市善卷路常德湖南应用技术学院</p>
+						<p>电话：137****1359/152****8355 时间&nbsp; &nbsp; 12:30-2:30</p>
+						<p class="ZZZ">网站：
+							<a href="index.html">www.gougouzhijia.com</a>
+						</p>
+						<p class="ZZZ">邮件：
+							<a href="#">1658056432@qq.com</a></p>
+					</div>
+				</div>
+				<div class="footer">
+					<p>版权所有版权所有 码农工作室lhw ?</p>
+					<p>Copyright 2014 - 2016 Hunan Applied Technology University All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var speed = 50
+			marquePic2.innerHTML = marquePic1.innerHTML
+
+			function Marquee() {
+				if(demo.scrollLeft >= marquePic1.scrollWidth) {
+					demo.scrollLeft = 0
+				} else {
+					demo.scrollLeft++
+				}
+			}
+			var MyMar = setInterval(Marquee, speed)
+			demo.onmouseover = function() {
+				clearInterval(MyMar)
+			}
+			demo.onmouseout = function() {
+				MyMar = setInterval(Marquee, speed)
+			}
+		</script>
+
+	</body>
+
+</html>
