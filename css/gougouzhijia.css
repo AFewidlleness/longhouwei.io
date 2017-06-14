@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#box{
+	width: 1030px;
+	height: 900px;
+	margin: 0px auto;
+	background: #e1c5b0;
+
+}
+.zd{
+	width: 870px;
+	height: 890px;
+	margin: 0px auto;
+}
+.logo{
+	width: 775px;
+	height: 95px;
+}
+
+.dh1{
+	width: 660px;
+	height: 95px;
+	line-height: 95px;
+	float: right;
+}
+.dh1 li{
+	list-style: none ;
+	width: 72px;
+	float: left;
+	margin-left: 20px;
+}
+.dh1 a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+.dh1 a:hover,.dh1 a.selected{
+	color: #fe1f59;
+}
+.header{
+	width: 870px;
+	height: 740px;
+}
+.zb1{
+	width: 240px;
+	height: 740px;
+	background: #ffffff;
+	float: left;
+}
+.dh2 ul{
+	list-style: none;
+	margin-left: 30px;
+}
+.dh2 a{
+	text-decoration: none;
+	margin-right: 15px;
+	color: #000000;
+}
+.dh2 a:hover{
+	color: #FE1F59;
+}
+.txt{
+	width: 120px;
+	height: 25px;
+	margin-top: 10px;
+}
+.btn{
+	width: 55px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 88px;
+	background-color: #fd8e35;
+}
+.li1{
+	margin-top: 15px;
+}
+.li2{
+	margin-top: 20px;
+	text-align: right;
+	font-size: 16px;
+}
+.ys1{
+	width: 610px;
+	height:558px;
+	float: right;
+	background: #FFFFFF;
+}
+#ShouYe{
+	color: #fe1f59;
+	font-weight: bold;
+	font-size: 18px;
+}
+#ShouYe:hover{
+	text-decoration: none;
+}
+.ys1 a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #FE1F59;
+}
+.ys1 a:hover{
+	text-decoration: underline;
+}
+.ys1 p{
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+	color: #ec898e;
+}
+#tupian{
+	margin: 10px 20px 5px 20px;
+}
+.ZZZ a{
+	color: #fe1f59;
+	text-decoration: none;
+}
+.ZZZ a:hover{
+	text-decoration: underline;
+}
+#demo{
+	width: 567px;
+	height: 153px;
+	margin: 0px auto;
+}
+.ys2{
+	width: 609px;
+	height: 177px;
+	margin-top: 5px;
+	background-color: #FFFFFF;
+	float: right;
+}
+.ys2 h2{
+	color: #fe1f59;
+	margin: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.ys2 p{
+	margin-left: 20px;
+	font-size: 16px;
+	margin-top: 4px;
+}
+#LIANXI{
+	color: #000000;
+}
+.footer{
+	width: 890px;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+}
